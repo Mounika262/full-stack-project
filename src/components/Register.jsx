@@ -19,7 +19,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8085/api/students/", {
+      const response = await fetch("http://3.107.58.122:8081/api/students/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
