@@ -20,7 +20,7 @@ const CourseAdd = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:8085/api/courses/", {
+      const response = await fetch("http://3.107.58.122:8081/api/courses/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
